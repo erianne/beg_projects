@@ -16,9 +16,11 @@ def odd_or_even(number):
 
 # SITE ###################################################
 
-st.markdown("# ODD OR EVEN")
+if __name__ == '__main__':
 
-number = st.text_input("Enter a number btw 1 and 1000")
+    st.markdown("# ODD OR EVEN")
 
-if st.button("Judge your number!"):
-    odd_or_even(number)
+    number = st.text_input("Enter a number btw 1 and 1000")
+
+    if st.button("Judge your number!"):
+        odd_or_even(number)
